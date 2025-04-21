@@ -3,25 +3,25 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Машинное зрение и ИИ агенты"
+    description="Дают новый уровень автоматизации и снижения расходов"
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Автоматическое распознавание номеров автотранспорта"
+      description="Системы распознавания номеров (ANPR) позволяют автоматизировать контроль доступа на охраняемые территории, а также фиксировать нарушения ПДД."
       image="/assets/images/feature.svg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Автоматическое распознавание объектов"
+      description="Системы распознавания объектов позволяют автоматизировать контроль доступа на охраняемые территории, управлять транспортом, персоналом и многое другое."
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="ИИ агенты"
+      description="ИИ агенты позволяют автоматизировать рутинные задачи, такие как обработка заявок, ответы на часто задаваемые, вести базу знаний и документов."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     />
