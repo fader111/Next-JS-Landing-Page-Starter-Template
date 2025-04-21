@@ -12,12 +12,20 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
+          <span
+            onClick={() => {
+              const el = document.getElementById('vertical-features');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+            style={{ cursor: 'pointer' }}
+          >
+            Проекты
+          </span>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="/">Контакты</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -32,9 +40,17 @@ const Hero = () => (
         }
         description="Позволит снизить расходы и увеличить прибыль вашего бизнеса"
         button={
-          <Link href="./">
+          <span
+            onClick={() => {
+              const el = document.getElementById('vertical-features');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+            style={{ display: 'inline-block', cursor: 'pointer' }}
+          >
             <Button xl>Посмотреть проекты</Button>
-          </Link>
+          </span>
         }
       />
     </Section>
