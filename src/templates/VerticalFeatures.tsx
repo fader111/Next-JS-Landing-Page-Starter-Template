@@ -47,13 +47,13 @@ const VerticalFeatures = () => (
         imageAlt="Second feature alt text"
         reverse
       />
-      <VerticalFeatureRow
+      {/* <VerticalFeatureRow
         title="О нас"
         description=""
         image="/assets/images/logo1.png"
         imageAlt="Third feature alt text"
         // reverse
-      />
+      /> */}
     </Section>
   </div>
 );
