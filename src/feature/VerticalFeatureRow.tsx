@@ -4,8 +4,9 @@ import { useRouter } from 'next/router';
 type IVerticalFeatureRowProps = {
   title: string;
   description: string;
-  image: string;
+  image?: string;
   imageAlt: string;
+  video?: string;
   reverse?: boolean;
 };
 
@@ -32,7 +33,18 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
       </div>
 
       <div className="flex w-full items-center justify-center p-6 sm:w-1/2">
-        <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
+        {props.video ? (
+          <video
+            src={props.video}
+            controls
+            autoPlay
+            loop
+            muted
+            className="h-auto max-w-full rounded"
+          />
+        ) : (
+          <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
+        )}
       </div>
     </div>
   );

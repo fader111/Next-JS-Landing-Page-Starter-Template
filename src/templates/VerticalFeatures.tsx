@@ -9,15 +9,15 @@ const VerticalFeatures = () => (
     >
       <VerticalFeatureRow
         title="Автоматическое распознавание номеров автотранспорта"
-        description="Системы распознавания номеров (ANPR) позволяют автоматизировать контроль доступа на охраняемые территории, управлять работой ворот и шлагбаумов, а также фиксировать нарушения ПДД."
+        description="Системы распознавания номеров (ANPR) позволяют автоматизировать контроль проезда на охраняемые территории, управлять работой ворот и шлагбаумов, а также фиксировать нарушения ПДД."
         image="/assets/images/license_plate.png"
         imageAlt="Licence plate recognition"
       />
       <VerticalFeatureRow
         title="Автоматическое распознавание и трекинг объектов"
         description="Системы распознавания объектов позволяют автоматизировать контроль доступа на охраняемые территории, управлять транспортом, персоналом, создавать видоаналитику и многое другое."
-        // image="/assets/images/yoloV8.webp"
-        image="/assets/images/bus.jpg"
+        // image="/assets/images/bus.jpg"
+        video="/assets/videos/yolo.mp4"
         imageAlt="Second feature alt text"
         reverse
       />
@@ -35,10 +35,24 @@ const VerticalFeatures = () => (
         reverse
       />
       <VerticalFeatureRow
+        title="Ортодонтическая CAD система"
+        description="WebGL приложение для ортодонтического лечения с ИИ ассистентом"
+        video="/assets/videos/ortho_cad.mp4"
+        imageAlt="Second feature alt text"
+      />
+      <VerticalFeatureRow
+        title="Датчики на основе нейросетей"
+        description="Мы разрабатываем датчики с обработкой сигналов нейросетями, показывающие лучшие результаты по сравнению с традиционными вычислениями. Оценка вибраций, ускорения, наклона, трекинг объектов, обработка изображений с камер."
+        image="/assets/images/esp32.jpeg"
+        imageAlt="Second feature alt text"
+        reverse
+      />
+      <VerticalFeatureRow
         title="О нас"
         description="Мы разрабатываем системы автоматизации, в том числе на основе систем машинного зрения и искусственного интеллекта. Наши инженеры имеют опыт в построении систем промышленной автоматизации, зданий, систем управления дорожной инфраструктурой."
         image="/assets/images/logo1.png"
         imageAlt="Third feature alt text"
+        // reverse
       />
     </Section>
   </div>
