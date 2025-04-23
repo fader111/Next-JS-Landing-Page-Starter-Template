@@ -13,6 +13,19 @@ const Hero = () => (
         <li>
           <span
             onClick={() => {
+              const el = document.getElementById('about-section');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+            style={{ cursor: 'pointer' }}
+          >
+            О компании
+          </span>
+        </li>
+        <li>
+          <span
+            onClick={() => {
               const el = document.getElementById('vertical-features');
               if (el) {
                 el.scrollIntoView({ behavior: 'smooth' });
