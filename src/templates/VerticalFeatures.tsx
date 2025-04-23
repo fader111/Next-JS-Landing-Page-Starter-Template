@@ -49,7 +49,7 @@ const VerticalFeatures = () => (
       />
       <VerticalFeatureRow
         title="О нас"
-        description="Мы разрабатываем системы автоматизации, в том числе на основе систем машинного зрения и искусственного интеллекта. Наши инженеры имеют опыт в построении систем промышленной автоматизации, зданий, систем управления дорожной инфраструктурой."
+        description=""
         image="/assets/images/logo1.png"
         imageAlt="Third feature alt text"
         // reverse
