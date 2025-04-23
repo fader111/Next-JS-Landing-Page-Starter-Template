@@ -9,7 +9,11 @@ const Footer = () => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
-        logo={<Logo />}
+        logo={
+          <Link href="/">
+            <Logo />
+          </Link>
+        }
         iconList={
           <>
             {/* {/* <Link href="/">
@@ -56,9 +60,9 @@ const Footer = () => (
           </>
         }
       >
-        <li>
+        {/* <li>
           <Link href="/">В начало</Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link href="/">О нас</Link>
         </li> */}
@@ -70,6 +74,7 @@ const Footer = () => (
             GitHub
           </Link>
         </li> */}
+        <div />
       </CenteredFooter>
     </Section>
   </Background>
