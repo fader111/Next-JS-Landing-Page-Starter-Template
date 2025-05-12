@@ -29,7 +29,20 @@ const VerticalFeatures = () => (
       />
       <VerticalFeatureRow
         title="Встраиваемые системы управления"
-        description="Разработаем систему автоматического управления с удобным интерфейсом для управления производством, цехом, станком, дорожным объектом."
+        description={
+          <>
+            Разработаем систему автоматического управления с удобным интерфейсом
+            для управления производством, цехом, станком, дорожным объектом.{' '}
+            <a
+              href="https://aihe1per24.streamlit.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-700 underline hover:text-primary-500"
+            >
+              Пример
+            </a>
+          </>
+        }
         image="/assets/images/dk_web.png"
         imageAlt="Second feature alt text"
         reverse
